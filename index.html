@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammad Fazil Saadat — Backend Developer</title>
+  <meta name="description" content="Mohammad Fazil Saadat is a Backend Developer building reliable, scalable and efficient backend systems.">
+  <meta name="theme-color" content="#08080C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=JetBrains+Mono:wght@400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Inline icon sprite (stroke icons, Lucide-style) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.5z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.3-2-1-.8.8c-.9-.4-1.7-1.2-2.1-2.1l.8-.8-1-2z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13c0-1.5 1-2 2-2s2 .7 2 2v3"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4 1.2-4-2-6-2m12 4v-3.2a2.8 2.8 0 0 0-.8-2.2c2.6-.3 5.3-1.3 5.3-5.8a4.5 4.5 0 0 0-1.2-3.1 4.2 4.2 0 0 0-.1-3.1s-1-.3-3.2 1.2a11 11 0 0 0-5.8 0C6.9 3.3 5.9 3.6 5.9 3.6a4.2 4.2 0 0 0-.1 3.1A4.5 4.5 0 0 0 4.6 9.8c0 4.5 2.7 5.5 5.3 5.8a2.8 2.8 0 0 0-.8 2.2V21"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+  <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0 5 5L21 17l-4 4-5.7-1.3L3 11.3 6.3 8z" transform="scale(.9) translate(1 1)"/><circle cx="7" cy="7" r="1"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></symbol>
+</svg>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- NAVBAR -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#home" class="logo" aria-label="Home">MF<span>.</span></a>
+    <nav class="nav__menu" id="menu" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--ghost nav__cta">Let's Connect</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="status reveal"><i class="pulse"></i>Backend Developer <b>|</b> Open to Opportunities</p>
+        <h1 class="hero__title reveal">MOHAMMAD<br><em>FAZIL SAADAT</em></h1>
+        <p class="hero__role mono reveal">// Backend Developer</p>
+        <p class="hero__text reveal">I build the logic behind powerful digital experiences — creating reliable, scalable, and efficient backend systems.</p>
+        <div class="hero__actions reveal">
+          <a href="#projects" class="btn btn--primary magnetic">Explore My Work <svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a href="#contact" class="btn btn--ghost magnetic">Let's Connect</a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal" aria-hidden="true">
+        <svg viewBox="0 0 420 420" class="system">
+          <defs>
+            <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#A78BFA" stop-opacity=".35"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+          </defs>
+          <circle cx="210" cy="210" r="190" fill="url(#g)"/>
+          <circle cx="210" cy="210" r="150" class="ring"/>
+          <circle cx="210" cy="210" r="95" class="ring ring--dash"/>
+          <g class="paths">
+            <path d="M210 210 L95 95"/><path d="M210 210 L335 110"/><path d="M210 210 L90 320"/><path d="M210 210 L340 305"/>
+            <path d="M95 95 L335 110"/><path d="M90 320 L340 305"/>
+          </g>
+          <g class="nodes">
+            <g class="node n1"><circle cx="95" cy="95" r="22"/><text x="95" y="99">API</text></g>
+            <g class="node n2"><circle cx="335" cy="110" r="22"/><text x="335" y="114">AUTH</text></g>
+            <g class="node n3"><circle cx="90" cy="320" r="22"/><text x="90" y="324">CACHE</text></g>
+            <g class="node n4"><circle cx="340" cy="305" r="22"/><text x="340" y="309">QUEUE</text></g>
+          </g>
+          <g class="core">
+            <circle cx="210" cy="210" r="42"/>
+            <g transform="translate(192 192) scale(1.5)" class="core__icon"><use href="#i-db" width="24" height="24"/></g>
+          </g>
+        </svg>
+        <div class="glass-card">
+          <span class="mono dim">GET /api/v1/health</span>
+          <span class="mono"><i class="pulse"></i> 200 OK</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll to About"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container about">
+      <div class="about__head reveal">
+        <p class="eyebrow mono">01 — About</p>
+        <h2>Behind the <em>Logic</em></h2>
+      </div>
+
+      <!-- Portrait: just drop your photo at assets/images/mohammad.jpg -->
+      <figure class="portrait reveal">
+        <div class="portrait__frame">
+          <div class="portrait__inner">
+            <img src="assets/images/mohammad fazil.png" alt="Portrait of Mohammad Fazil Saadat" width="640" height="768" loading="lazy"
+                 onerror="this.closest('.portrait__frame').classList.add('is-empty')">
+            <span class="portrait__mono" aria-hidden="true">MF.</span>
+          </div>
+        </div>
+        <figcaption class="mono">Mohammad Fazil Saadat</figcaption>
+      </figure>
+
+      <div class="about__body reveal">
+        <p>I'm Mohammad Fazil Saadat, a Backend Developer passionate about building the systems that make digital experiences work.</p>
+        <p>I enjoy working with server-side logic, databases, APIs, and application architecture. My goal is to create backend solutions that are reliable, efficient, maintainable, and scalable.</p>
+      </div>
+
+      <div class="code reveal" aria-hidden="true">
+        <div class="code__bar"><i></i><i></i><i></i><span class="mono dim">architecture.js</span></div>
+<pre class="mono"><span class="c">// request → response</span>
+<span class="k">client</span>  → <span class="k">api</span>
+<span class="k">api</span>     → <span class="k">logic</span>
+<span class="k">logic</span>   → <span class="k">database</span>
+<span class="k">database</span>→ <span class="k">logic</span> → <span class="k">client</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS — edit, add or remove <li> items freely -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="head reveal">
+        <p class="eyebrow mono">02 — Skills</p>
+        <h2>Tools I <em>work with</em></h2>
+      </div>
+      <div class="skills">
+        <article class="skill reveal">
+          <svg class="ic ic--lg"><use href="#i-server"/></svg>
+          <h3>Backend Development</h3>
+          <ul><li>Python</li><li>PHP</li><li>Node.js</li><li>Express.js</li></ul>
+        </article>
+        <article class="skill reveal">
+          <svg class="ic ic--lg"><use href="#i-db"/></svg>
+          <h3>Databases</h3>
+          <ul><li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li></ul>
+        </article>
+        <article class="skill reveal">
+          <svg class="ic ic--lg"><use href="#i-tools"/></svg>
+          <h3>Tools &amp; Technologies</h3>
+          <ul><li>Git</li><li>GitHub</li><li>REST APIs</li><li>Linux</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS — cards are rendered by script.js from the PROJECTS array -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="head reveal">
+        <p class="eyebrow mono">03 — Projects</p>
+        <h2>Selected <em>Projects</em></h2>
+        <p class="sub">A collection of things I've built and explored.</p>
+      </div>
+      <div id="projects-root" class="reveal"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact">
+      <p class="eyebrow mono reveal">04 — Contact</p>
+      <h2 class="reveal">Let's Build <em>Something Great</em></h2>
+      <p class="sub reveal">Have an idea, a project, or an opportunity? Let's connect and make it happen.</p>
+      <div class="links">
+        <a class="link reveal" href="https://wa.me/93730008109" target="_blank" rel="noopener noreferrer">
+          <svg class="ic ic--lg"><use href="#i-whatsapp"/></svg>
+          <span><small class="mono dim">WhatsApp</small>+93 73 000 8109</span>
+          <svg class="ic go"><use href="#i-ext"/></svg>
+        </a>
+        <a class="link reveal" href="https://www.linkedin.com/in/mohammad-fazil-saadat-ab7867399/" target="_blank" rel="noopener noreferrer">
+          <svg class="ic ic--lg"><use href="#i-linkedin"/></svg>
+          <span><small class="mono dim">LinkedIn</small>Mohammad Fazil Saadat</span>
+          <svg class="ic go"><use href="#i-ext"/></svg>
+        </a>
+        <a class="link reveal" href="https://github.com/Fazil-saadat" target="_blank" rel="noopener noreferrer">
+          <svg class="ic ic--lg"><use href="#i-github"/></svg>
+          <span><small class="mono dim">GitHub</small>Fazil-saadat</span>
+          <svg class="ic go"><use href="#i-ext"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year">2026</span> Mohammad Fazil Saadat. Crafted with precision.</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/mohammad-fazil-saadat-ab7867399/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+      <a href="https://github.com/Fazil-saadat" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+      <a href="https://wa.me/93730008109" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="ic"><use href="#i-whatsapp"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
